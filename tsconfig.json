@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "target": "es5", //ce qui indique que notre code typescript sera compiler vers du code JS es5
+        "lib": [
+            "dom",
+            "dom.iterable",
+            "esnext"
+        ],
+        "allowJs": true,
+        "skipLibCheck": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "strict": true,
+        "forceConsistentCasingInFileNames": true,
+        "module": "esnext",
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "noEmit": true,
+        "jsx": "react" //ce qui indique à typescript que nous allons utiliser du jsx dans notre code et que nous voulons qu'il compile notre code jsx vers du javascript il suffit de lui passer en parametre react et nos fichier auront extension tsx ce qui signifie Typescript + jsx
+    },
+    "include": [
+        "src"
+    ]
+}
